@@ -8,6 +8,8 @@ var os = require('os')
 
 var win32 = os.platform() === 'win32'
 
+// hey lint me
+
 var noop = function () {}
 
 var echo = function (name) {
